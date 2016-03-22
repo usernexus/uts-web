@@ -1,27 +1,39 @@
-# Laravel PHP Framework
+# Soal UTS Web Lanjut
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+| sifat | Open All (boleh browsing internet) |
+| waktu | 120 menit (2 jam) |
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+Aplikasi ini merupakan base application yang akan digunakan untuk mengerjakan soal-soal UTS pemrograman web lanjut. Silahkan `fork` repository ini kemudian clone repository `uts-web` yang ada di akun github masing-masing untuk mengerjakan soal UTS pemrograman web.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+> Pengumpulan UTS dilakukan dengan cara melakukan `push` ke akun github masing-masing. Melalui akun-akun tersebut saya akan meng-clone dan mencoba apakah aplikasi yang dibuat berhasil dijalankan sesuai dengan requirement yang diberikan atau tidak.
 
-## Official Documentation
+## Persiapan
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Demi kelancaran pengerjaan project UTS praktikum pemrograman web lanjut ini diharapkan rekan-rekan sudah menyiapkan tools dibawah ini:
 
-## Contributing
+1. Composer
+2. PHP >= 5.5.9 (dan PHP Cli)
+3. PHP-PDO MySQL (bisa diinstall melalui `sudo apt-get install php5-mysql`)
+4. dan dependency Laravel lainnya seperti yang ada di dalam [dokumentasinya](https://laravel.com/docs/5.2/installation#server-requirements).
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+## Langkah-langkah pengerjaan
 
-## Security Vulnerabilities
+1. `Fork` repository `uts-web` ini.
+2. Pastikan project `uts-web` sudah berada di akun github masing-masing misal `fulan/uts-web`.
+3. Clone project `uts-web` ke komputer / laptop yang akan digunakan untuk mengerjakan UTS.
+4. Buka terminal, masuk kedalam direktori `uts-web`.
+5. Jalankan `composer install` untuk mengunduh setiap dependency yang dibutuhkan Laravel.
+6. Jalankan `php artisan serve` untuk mengaktifkan internal web server Laravel.
+7. Buka web browser dan akses alamat `http://localhost:8000`.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+## Apa yang harus dikerjakan untuk UTS ini?
 
-## License
+Berikut ini adalah daftar tugas yang harus dikerjakan untuk UTS pemrograman web lanjut:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+1. Buat mekanisme penyimpanan inventaris barang. Pada saat data disubmit dari [formulir](http://localhost:8000/form) penambahan barang, data tersebut harus dimasukkan kedalam database.
+2. Tampilkan setiap data inventaris barang yang ada di dalam database kedalam bentuk tabel seperti yang dicontohkan pada halaman [daftar inventaris barang](http://localhost:8000).
+3. Tampilkan detail setiap inventaris barang pada saat link barang di klik. silahkan gunakan mekanisme `route parameter` seperti yang ada di [dokumentasi](https://laravel.com/docs/5.2/controllers#basic-controllers) Laravel.
+
+## Mekanisme pengumpulan UTS
+
+Mekanisme pengumpulan dan penilaian akan dilakukan dari repository Github.com. Untuk melakukan pengumpulan UTS kali ini silahkan buka terminal, commit pekerjaan anda dengan menggunakan perintah `git add --all` kemudian `git commit -m "pengumpulan UTS"` dan `git push origin master`.
