@@ -1,7 +1,7 @@
 # Soal UTS Web Lanjut
 
-| sifat | Open All (boleh browsing internet) |
-| waktu | 120 menit (2 jam) |
+* Sifat: Open All
+* Waktu: 120 menit (2 jam)
 
 Aplikasi ini merupakan base application yang akan digunakan untuk mengerjakan soal-soal UTS pemrograman web lanjut. Silahkan `fork` repository ini kemudian clone repository `uts-web` yang ada di akun github masing-masing untuk mengerjakan soal UTS pemrograman web.
 
