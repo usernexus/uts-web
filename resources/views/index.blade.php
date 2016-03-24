@@ -30,7 +30,7 @@
                     </div>
                     <table class="table table-striped table-bordered table-hover">
                         <thead>
-                            <th>No.</th>
+                            <th>ID.</th>
                             <th>Kode Barang</th>
                             <th>Nama Barang</th>
                             <th>Jumlah</th>
