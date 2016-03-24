@@ -25,13 +25,13 @@ Demi kelancaran pengerjaan project UTS praktikum pemrograman web lanjut ini diha
 5. Jalankan `composer install` untuk mengunduh setiap dependency yang dibutuhkan Laravel.
 6. Buat database mysql dengan nama `uts_web`.
 7. Edit file `.env` (copy dari file `.env.example`)
-
+    ```
     DB_HOST=127.0.0.1
     DB_PORT=3306
     DB_DATABASE=uts_web
     DB_USERNAME=user_mysql
     DB_PASSWORD=password_mysql
-
+    ```
 8. Jalankan `php artisan migrate` untuk menginstall tabel yang disediakan.
 9. Jalankan `php artisan serve` untuk mengaktifkan internal web server Laravel.
 10. Buka web browser dan akses alamat `http://localhost:8000`.
