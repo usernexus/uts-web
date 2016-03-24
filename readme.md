@@ -32,11 +32,11 @@ Berikut ini adalah daftar tugas yang harus dikerjakan untuk UTS pemrograman web 
 
 1. Buat mekanisme penyimpanan inventaris barang. Pada saat data disubmit dari [formulir](http://localhost:8000/form) penambahan barang, data tersebut harus dimasukkan kedalam database.
 
-    ![Inventory Form](http://s11.postimg.org/jon6dryg3/inventory_new.png)
+    ![Inventory Form](http://s10.postimg.org/3moqehxc9/inventory_form.png)
 
 2. Tampilkan setiap data inventaris barang yang ada di dalam database kedalam bentuk tabel seperti yang dicontohkan pada halaman [daftar inventaris barang](http://localhost:8000).
 
-    ![Inventory List](http://s23.postimg.org/lzrflpzor/inventory_list.png)
+    ![Inventory List](http://s10.postimg.org/kr61h658p/inventory_list.png)
 
 3. Tampilkan detail setiap inventaris barang pada saat link barang di klik. silahkan gunakan mekanisme `route parameter` seperti yang ada di [dokumentasi](https://laravel.com/docs/5.2/controllers#basic-controllers) Laravel.
 
