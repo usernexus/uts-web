@@ -23,4 +23,9 @@ class InventoryController extends Controller
     {
         return response()->view('form');
     }
+
+    public function detail(Request $request, $id)
+    {
+        return response()->view('detail');
+    }
 }

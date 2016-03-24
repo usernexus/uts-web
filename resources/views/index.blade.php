@@ -41,7 +41,7 @@
                         <tbody>
                             <tr>
                                 <td>1.</td>
-                                <td>ASSET-0001</td>
+                                <td><a href="{{route('inventory.detail',[1])}}">ASSET-0001</a></td>
                                 <td>Meja Kerja</td>
                                 <td>30</td>
                                 <td>2016-03-20</td>
@@ -53,7 +53,7 @@
                             </tr>
                             <tr>
                                 <td>2.</td>
-                                <td>ASSET-0002</td>
+                                <td><a href="{{route('inventory.detail',[2])}}">ASSET-0002</a></td>
                                 <td>Kursi Kerja</td>
                                 <td>30</td>
                                 <td>2016-03-20</td>
@@ -65,7 +65,7 @@
                             </tr>
                             <tr>
                                 <td>3.</td>
-                                <td>ASSET-0003</td>
+                                <td><a href="{{route('inventory.detail',[3])}}">ASSET-0003</a></td>
                                 <td>Lemari Buku</td>
                                 <td>5</td>
                                 <td>2016-03-20</td>
@@ -77,7 +77,7 @@
                             </tr>
                             <tr>
                                 <td>4.</td>
-                                <td>ASSET-0004</td>
+                                <td><a href="{{route('inventory.detail',[4])}}">ASSET-0004</a></td>
                                 <td>Router</td>
                                 <td>5</td>
                                 <td>2016-03-20</td>
@@ -89,7 +89,7 @@
                             </tr>
                             <tr>
                                 <td>5.</td>
-                                <td>ASSET-0005</td>
+                                <td><a href="{{route('inventory.detail',[5])}}">ASSET-0005</a></td>
                                 <td>Sofa Panjang</td>
                                 <td>3</td>
                                 <td>2016-03-20</td>
