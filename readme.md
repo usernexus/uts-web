@@ -57,5 +57,6 @@ Berikut ini adalah daftar tugas yang harus dikerjakan untuk UTS pemrograman web 
 Mekanisme pengumpulan dan penilaian akan dilakukan dari repository Github.com. Untuk melakukan pengumpulan UTS kali ini silahkan buka terminal, commit pekerjaan anda dengan menggunakan perintah `git add --all` kemudian `git commit -m "pengumpulan UTS"` dan `git push origin master`.
 
 Catatan:
+
 1. Jangan lupa untuk mendaftarkan akun Github anda di [thread UTS ini](http://elen.nurulfikri.ac.id/mod/forum/discuss.php?d=12).
 2. Jika terdapat masalah dalam pengerjaan UTS, silahkan laporkan di [thread UTS ini](http://elen.nurulfikri.ac.id/mod/forum/discuss.php?d=13)
