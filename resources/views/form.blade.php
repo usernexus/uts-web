@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+  <head>
         <title>Inventory Management</title>
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" >
         <link rel="stylesheet" href="{{asset('assets/css/starter-template.css')}}" >
@@ -27,19 +27,19 @@
                         <div class="form-group">
                             <label for="inputCode" class="col-md-2">Kode Barang</label>
                             <div class="col-md-10">
-                                <input type="text" class="form-control" id="inputCode" name="code" placeholder="">
+                                <input type="text" class="form-control" id="inputCode" name="code" placeholder="Kode Barang">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputName" class="col-md-2">Nama Barang</label>
                             <div class="col-md-10">
-                                <input type="text" class="form-control" id="inputName" name="name" placeholder="">
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Nama Barang">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputQty" class="col-md-2">Jumlah</label>
                             <div class="col-md-10">
-                                <input type="number" class="form-control" id="inputQty" name="qty" placeholder="">
+                                <input type="number" class="form-control" id="inputQty" name="qty" placeholder="Jumlah">
                             </div>
                         </div>
                         <div class="form-group">
@@ -50,7 +50,7 @@
                     </form>
                 </div>
             </div>
-        </div><!-- /.container -->
+        </div>
         <script type="text/javascript" src="{{asset('assets/js/jquery-1.12.1.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('assets/js/bootstrap.min.js')}}"></script>
     </body>

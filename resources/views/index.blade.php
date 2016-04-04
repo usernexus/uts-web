@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple Blog</title>
+        <title>Ali hasani</title>
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" >
         <link rel="stylesheet" href="{{asset('assets/css/starter-template.css')}}" >
     </head>
