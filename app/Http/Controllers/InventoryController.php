@@ -16,7 +16,8 @@ class InventoryController extends Controller
 
     public function index(Request $request)
     {
-        return response()->view('index');
+        $inventories = $this->inventory->all();
+        return response()->view('index', ['inventories' => $inventories]);
     }
 
     public function form(Request $request)
