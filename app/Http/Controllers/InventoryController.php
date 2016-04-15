@@ -27,7 +27,8 @@ class InventoryController extends Controller
 
     public function detail(Request $request, $id)
     {
-        return response()->view('detail');
+        $inventory = $this->inventory->find($id);
+        return response()->view('detail', ['inventory' => $inventory]);
     }
    public function create(Request $request, $id)
     {
