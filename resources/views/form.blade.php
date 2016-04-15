@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
         <title>Inventory Management</title>
         <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}" >
         <link rel="stylesheet" href="{{asset('assets/css/starter-template.css')}}" >
@@ -23,23 +23,23 @@
             <div class="row">
                 <div class="col-md-6">
                     <h2>Buat Inventaris Baru</h2>
-                    <form class="form-horizontal">
+                    <form class="form-horizontal" method="POST" action="{{route('inventory.create')}}">
                         <div class="form-group">
                             <label for="inputCode" class="col-md-2">Kode Barang</label>
                             <div class="col-md-10">
-                                <input type="text" class="form-control" id="inputCode" name="code" placeholder="Kode Barang">
+                                <input type="text" class="form-control" id="inputCode" name="code" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputName" class="col-md-2">Nama Barang</label>
                             <div class="col-md-10">
-                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Nama Barang">
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputQty" class="col-md-2">Jumlah</label>
                             <div class="col-md-10">
-                                <input type="number" class="form-control" id="inputQty" name="qty" placeholder="Jumlah">
+                                <input type="number" class="form-control" id="inputQty" name="qty" placeholder="">
                             </div>
                         </div>
                         <div class="form-group">
@@ -50,7 +50,7 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div><!-- /.container -->
         <script type="text/javascript" src="{{asset('assets/js/jquery-1.12.1.min.js')}}"></script>
         <script type="text/javascript" src="{{asset('assets/js/bootstrap.min.js')}}"></script>
     </body>
