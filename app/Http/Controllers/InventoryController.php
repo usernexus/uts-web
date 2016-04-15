@@ -28,4 +28,14 @@ class InventoryController extends Controller
     {
         return response()->view('detail');
     }
+   public function create(Request $request, $id)
+    {
+        return response()->view('create');
+        $this->inventory->code=$requese->code;
+        $this->inventory->id=$requese->name;
+        $this->inventory->qty=$requese->jumlah;
+          
+        
+        
+    }
 }
