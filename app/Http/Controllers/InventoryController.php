@@ -30,10 +30,11 @@ class InventoryController extends Controller
     }
    public function create(Request $request, $id)
     {
-        return response()->view('create');
         $this->inventory->code=$requese->code;
         $this->inventory->id=$requese->name;
         $this->inventory->qty=$requese->jumlah;
+        return response()->view('create');
+        
           
         
         
